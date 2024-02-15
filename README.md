@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@deno/mod.js';
+import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@v0.2.0-deno/mod.js';
 ```
 
 #### oneTo( n\[, dtype] )
@@ -120,7 +120,7 @@ var arr = oneTo( 5, 'int32' );
 ```javascript
 import sort2hp from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsort2hp@deno/mod.js';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@deno/mod.js';
+import oneTo from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-one-to@v0.2.0-deno/mod.js';
 
 // Generate an array of random numbers:
 var opts = {
