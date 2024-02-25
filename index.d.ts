@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,31 +16,30 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { NumericAndGenericDataTypeMap } from '@stdlib/types/array';
 
 /**
-* Generate a linearly spaced numeric array whose elements increment by 1 starting from one.
+* Generates a linearly spaced numeric array whose elements increment by 1 starting from one.
 *
-* @module @stdlib/array-one-to
+* @param n - number of elements
+* @param dtype - data type (default: 'float64')
+* @returns linearly spaced numeric array
 *
 * @example
-* var oneTo = require( '@stdlib/array-one-to' );
-*
 * var arr = oneTo( 2 );
 * // returns <Float64Array>[ 1.0, 2.0 ]
 *
 * @example
-* var oneTo = require( '@stdlib/array-one-to' );
-*
 * var arr = oneTo( 2, 'float32' );
 * // returns <Float32Array>[ 1.0, 2.0 ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function oneTo<T extends keyof NumericAndGenericDataTypeMap<number> = 'float64'>( n: number, dtype?: T ): NumericAndGenericDataTypeMap<number>[T];
 
 
 // EXPORTS //
 
-module.exports = main;
+export = oneTo;
