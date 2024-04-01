@@ -46,8 +46,8 @@
     "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/array-complex128": "^0.2.0",
-    "@stdlib/array-complex64": "^0.2.0",
+    "@stdlib/array-complex128": "^0.2.1",
+    "@stdlib/array-complex64": "^0.2.1",
     "@stdlib/array-float32": "^0.2.1",
     "@stdlib/array-float64": "^0.2.1",
     "@stdlib/array-int16": "^0.2.1",
@@ -63,7 +63,7 @@
     "@stdlib/assert-is-typed-array-like": "^0.2.1",
     "@stdlib/blas-ext-base-gsort2hp": "^0.2.1",
     "@stdlib/math-base-special-pow": "^0.2.1",
-    "@stdlib/random-array-discrete-uniform": "^0.2.0",
+    "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "@stdlib/strided-base-reinterpret-complex128": "^0.2.1",
     "@stdlib/strided-base-reinterpret-complex64": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
