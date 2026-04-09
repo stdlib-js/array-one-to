@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-one-to": "^0.2.2",
+    "@stdlib/array-base-one-to": "^0.2.3",
     "@stdlib/array-defaults": "^0.4.1",
     "@stdlib/array-zeros": "^0.2.3",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.3",
