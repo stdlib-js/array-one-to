@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-08-10)
+
+<section class="features">
+
+### Features
+
+-   [`7cc4708`](https://github.com/stdlib-js/stdlib/commit/7cc47082117a2d68d704d4d54a49d068da41477b) - add float16 dtype support to `array/one-to` [(#14151)](https://github.com/stdlib-js/stdlib/pull/14151)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`7cc4708`](https://github.com/stdlib-js/stdlib/commit/7cc47082117a2d68d704d4d54a49d068da41477b) - **feat:** add float16 dtype support to `array/one-to` [(#14151)](https://github.com/stdlib-js/stdlib/pull/14151) _(by Gururaj Gurram)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Gururaj Gurram
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-08)
